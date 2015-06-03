@@ -1,4 +1,18 @@
 TYPO3:
+  TYPO3CR:
+    contentDimensions:
+      language:
+        default: ru_RU
+        defaultPreset: 'ru'
+        presets:
+          'ru':
+            label: 'Russian'
+            values: ['ru_RU']
+            uriSegment: 'ru'
+          'en':
+            label: 'English'
+            values: ['en_EN']
+            uriSegment: 'en'
   Neos:
     GoogleAnalytics:
       authentication:
