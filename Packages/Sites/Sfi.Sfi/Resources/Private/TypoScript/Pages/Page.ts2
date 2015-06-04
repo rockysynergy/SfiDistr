@@ -29,6 +29,9 @@ prototype(Sfi.Sfi:Page) < prototype(TYPO3.Neos:Page) {
 		partialRootPath = 'resource://Sfi.Sfi/Private/Partials'
 		layoutRootPath = 'resource://Sfi.Sfi/Private/Layouts'
 
+		languageMenu = TYPO3.Neos:DimensionMenu {
+			dimension = 'language'
+		}
 		mainMenu = Menu {
 			templatePath = 'resource://Sfi.Sfi/Private/Templates/TypoScriptObjects/MainMenu.html'
 			partialRootPath = 'resource://Sfi.Sfi/Private/Partials'
